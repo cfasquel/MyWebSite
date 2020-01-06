@@ -13,9 +13,9 @@ module.exports = {
   // social
   socialLinks: [
     {
-      icon: 'fa-github',
-      name: 'Github',
-      url: 'https://github.com/cfasquel',
+      icon: 'fa-twitter',
+      name: 'Twitter',
+      url: 'https://twitter.com/FasquelClement',
     },
     {
       icon: 'fa-linkedin-in',
@@ -23,17 +23,12 @@ module.exports = {
       url: 'https://www.linkedin.com/in/clementfasquel/',
     },
     {
-      icon: 'fa-twitter',
-      name: 'Twitter',
-      url: 'https://twitter.com/FasquelClement',
-    },
-    {
-      icon: 'fa-facebook-f',
-      name: 'Facebook',
-      url: 'https://facebook.com/theanubhav',
+      icon: 'fa-github',
+      name: 'Github',
+      url: 'https://github.com/cfasquel',
     },
   ],
   email: 'fasquel.clement@gmail.com',
   phone: '+33631231781',
-  address: 'adress',
+  address: 'Calais, France',
 };
