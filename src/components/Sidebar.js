@@ -16,6 +16,7 @@ export class Sidebar extends Component {
         { content: 'Compétences', href: 'skills' },
         { content: 'Centres d’intérêt', href: 'interests' },
         { content: 'Réalisations', href: 'awards' },
+        { content: 'Enseignement', href: 'teaching' },
       ],
     };
   }
