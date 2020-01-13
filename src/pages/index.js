@@ -285,7 +285,7 @@ const IndexPage = () => (
             </div>
             <div className="resume-date text-md-right">
               <span className="text-primary">
-                Septembre 2011 à Septembre 2012
+                Septembre 2009 à Septembre 2011
               </span>
             </div>
           </div>
