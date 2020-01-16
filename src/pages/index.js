@@ -356,8 +356,24 @@ const IndexPage = () => (
       >
         <div className="w-100">
           <h2 className="mb-5">Centres d’intérêt</h2>
-          <p>texte à ajouter...</p>
-          <p className="mb-0">texte à ajouter...</p>
+          <ul className="fa-ul mb-0">
+            <li>
+              <i className="fa-li fa fa-leaf text-success"></i>
+              Randonnées
+            </li>
+            <li>
+              <i className="fa-li fa fa-pencil-ruler text-warning"></i>
+              Dessin
+            </li>
+            <li>
+              <i className="fa-li fa fa-paw text-danger"></i>
+              Défense du droit des animaux
+            </li>
+            <li>
+              <i className="fa-li fa fa-gamepad text-primary"></i>
+              Jeux vidéos
+            </li>
+          </ul>
         </div>
       </section>
 
