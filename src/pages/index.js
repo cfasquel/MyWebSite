@@ -23,18 +23,20 @@ const IndexPage = () => (
             <a href={`mailto:${config.email}`}>{config.email}</a>
           </div>
           <p className="lead mb-5">
-            Passionné depuis tout petit par le développement et le monde du web,
-            j'exerce le métier de développeur web depuis 9 ans.
+            Passionné depuis tout petit par le développement et le monde des
+            services connecté, j'exerce le métier de développeur web depuis 9
+            ans.
           </p>
           <p className="lead mb-5">
-            Actuellement à plein temps chez Getlink Eurotunnel, j'ai également
-            la chance d'enseigner un module gravitant autour des services web
-            dans le cadre d'un contrat vacataire avec l'Université du Littoral
-            Côte d'Opale depuis 4 ans.
+            Actuellement à plein temps chez Getlink Eurotunnel en tant que
+            référent technique et developpeur sur la partie communication
+            client, j'ai également la chance d'enseigner un module gravitant
+            autour des services web dans le cadre d'un contrat vacataire avec
+            l'Université du Littoral Côte d'Opale depuis 2016.
           </p>
           <p className="lead mb-5">
-            Ce site est en cours de construction. Vous trouverez néanmoins sur
-            ce site les différents moyens de prendre contact avec moi.
+            Ce site est en cours de construction. Vous y trouverez néanmoins les
+            différents moyens de prendre contact avec moi.
             <br /> Si vous souhaitez accéder à mes informations de carrière à
             jour, rendez-vous sur{' '}
             <a href="https://www.linkedin.com/in/clementfasquel/">
@@ -67,12 +69,40 @@ const IndexPage = () => (
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
               <h3 className="mb-0">
-                Développeur Web Angular / C#.Core / Azure
+                Référent technique - Développeur Web Angular / C#.Core / Azure
               </h3>
               <div className="subheading mb-3">
                 CDI - GetLink/Eurotunnel à Coquelles
               </div>
-              <p>Description du poste...</p>
+              <p>
+                Actuellement référent technique et developpeur sur la partie
+                communication client, le projet propose aux collaborateurs
+                d'Eurotunnel d'afficher, administrer et communiquer les
+                différents indicateurs de l'entreprise aux clients. Le site web
+                propose l'ensemble des services permetant :
+                <ul>
+                  <li>
+                    de piloter l'affichage des panneaux d'appels des clients.
+                  </li>
+                  <li>
+                    d'administrer les données à fournir aux clients sur
+                    differents points d'entrée (applications mobiles, site
+                    marchand...)
+                  </li>
+                  <li>
+                    de proposer differents moyens de communication (SMS,
+                    alerting...) pour fournir aux clients la communication
+                    nécessaire à leur voyage avec Eurotunnel.
+                  </li>
+                  <li>...</li>
+                </ul>
+              </p>
+
+              <p>
+                Durant ma mission, j'ai pu également travailler sur divers
+                ecosystèmes de l'entreprise, comme la partie opérationnelle ou
+                encore la partie péage.
+              </p>
             </div>
             <div className="resume-date text-md-right">
               <span className="text-primary">Juillet 2015 à aujourd'hui</span>
@@ -88,7 +118,14 @@ const IndexPage = () => (
                 Enseignant vacataire - Université du Littoral Côte d'Opale à
                 Calais
               </div>
-              <p>Description du poste...</p>
+              <p>
+                Titulaire d'un master I2L et d'une maîtrise ISIDIS, j'interviens
+                en qualité de vacataire sur le module des services web pour la
+                promotion de ces deux spécialisation en 4ème année post-bac.
+                L'objet du cours est de sensibiliser les étudiants au monde des
+                services exposés sur le web. Vous trouverez plus de détails dans
+                la partie <a href="#teaching">enseignement</a>.
+              </p>
             </div>
             <div className="resume-date text-md-right">
               <span className="text-primary">Mars 2016 à aujourd'hui</span>
@@ -101,7 +138,10 @@ const IndexPage = () => (
               <div className="subheading mb-3">
                 CDD - GetLink/Eurotunnel à Coquelles
               </div>
-              <p>Description du poste...</p>
+              <p>
+                Tierce Maintenance Applicative sur la partie e-commerce du
+                freight Eurotunnel.
+              </p>
             </div>
             <div className="resume-date text-md-right">
               <span className="text-primary">Octobre 2015 à Juillet 2015</span>
